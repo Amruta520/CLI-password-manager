@@ -18,10 +18,7 @@ All stored credentials are encrypted using AES-GCM encryption.
 When commands are executed (add, get, list, delete), the vault is temporarily decrypted using the master password.
 After operations are completed, the vault is re-encrypted and saved securely.
 📦 Installation
-Clone the repository:
 
-git clone https://github.com/yourusername/password-manager.git
-cd password-manager
 Install dependencies:
 
 pip install cryptography
